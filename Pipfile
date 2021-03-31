@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+setuptools = "*"
+wheel = "*"
+twine = "*"
+pudb = "*"
+pytest = "*"
+pytest-pudb = "*"
+pytest-mock = "*"
+autopep8 = "*"
+
+[packages]
+paho-mqtt = "*"
+ujson = "*"
+smbus2 = "*"
+"rpi.bme280" = "*"
+
+[requires]
+python_version = "3.7"

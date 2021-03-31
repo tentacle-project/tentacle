@@ -1,0 +1,8 @@
+Pipfile.lock
+*.swo
+*.swp
+*.pyc
+**/.pytest_cache
+**/dist
+**/build
+**/*egg-info
